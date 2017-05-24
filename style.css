@@ -1,0 +1,161 @@
+body {
+    width: 90%;
+    margin: 2%;
+    background-color: #F9F7F7;
+  background: -webkit-linear-gradient(-93deg, rgb(249, 247, 247), rgb(226, 224, 224));
+  background: linear-gradient(-93deg, rgb(249, 247, 247), rgb(226, 224, 224));
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, table {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, ul  {
+    font-family: 'Arapey', serif;
+    font-size: 20px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    color: #333745;
+    line-height: normal;
+}
+
+#bold {
+    font-weight: 700 !important;
+}
+
+blockquote, q {
+    width:  45%;
+    margin: auto;
+    font-family: 'Arapey', serif;
+    font-style: italic;
+    color: #333745;
+    font-size: 160%;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    background-color: #E2E0E0;
+    
+}
+
+blockquote {
+    border-left: #C92944 solid 3px;
+    padding-left: 30px;
+}
+
+q {
+    border-left: #36546D solid 3px;
+    padding-left: 30px;
+}
+
+#1 {
+    margin-bottom: 80px !important;
+    margin-top: 80px !important;
+    text-align: center;
+    text-emphasis: text;
+}
+
+a:link {
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    color:#247BAO;
+} 
+
+a:hover {
+    font-family: 'Arapey', serif;
+    font-size: 19px;
+    font-weight: 200;
+    color:#247BAO;
+} 
+
+a:visited {
+    font-family: 'Arapey', serif;
+    font-size: 18px;
+    /*color: #B2DBBF;*/
+    color: #70C1B3;
+}
+
+.bien, .mal {
+    text-transform: capitalize;
+}
+
+.mal {
+    color: #A01B1B;
+}
+
+.bien {
+    color: #20493E;
+}
+
+#bien {
+    background-image: url(bien.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#mal {
+    background-image: url(mal.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+#chats {
+    background-image: url(chat.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+time, writer {
+    background-color: #1C1C1C;
+    color: floralwhite;
+    text-align: right;
+}
+
+.menu {
+    display: inline-block;
+    background-color: #C92944;
+    color: #36546D;
+    border: #36546D solid 2px;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+
+}
+
+.menu:hover {
+    background-color: #36546D;
+    color: #C92944;
+}
+
+.main-menu {
+    position: fixed;
+    margin-left: 30%;
+    top: 0;
+    width: auto;
+}
+
+
+table {
+    background-color: #C92944;
+}
+
+th {
+    background-color: #36546D;
+}
+
+td, th {
+    border: #36546D solid 0.5px;
+}
+
+footer {
+    background-color: #36546D;
+}
+
+img {
+  float: left;
+  margin: 0 0 1em 1em;
+}
